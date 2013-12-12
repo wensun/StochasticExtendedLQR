@@ -191,7 +191,7 @@ int main()
 	initEnvironment();
 	//std::cout.precision(4);
 
-	int obj;
+	/*int obj;
 	CAL_CreateSphere(cal_paths, 0.05, 0.0,0.0,0.0, &obj);
 
 	int T = 150;
@@ -229,7 +229,7 @@ int main()
 			}
 		
 			std::cout<<start.subMatrix<3,1>(0,0)<<std::endl;
-			//start[0] = 3; start[1] = -3.0; start[2] = 2.72533;*/
+			//start[0] = 3; start[1] = -3.0; start[2] = 2.72533;
 
 			int random = rand() % 12;
 			cgoal[random / 4] = ((double) rand() / RAND_MAX) * 4.5 - 2.25; //M_PI; //0; //
@@ -252,7 +252,7 @@ int main()
 		}
 		dt += 0.002;
 	}
-	fout.close();
+	fout.close();*/
 	
 	/*Matrix<XDIM> x;
 	for(int i = 1; i < (int)elqr.nominalPlan.size(); i++){
